@@ -1,0 +1,30 @@
+body {
+    background-color: #300060;
+    color: white;
+}
+
+.clickbox {
+    text-align: center;
+    position: relative;
+    top: 190px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+#boximage:hover {
+    transition: .5s;
+    width: 360px;
+    cursor: pointer;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    10% {
+        transform: translateY(0px);
+    }
+}

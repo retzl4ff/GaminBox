@@ -1,0 +1,78 @@
+@font-face {
+    font-family: inter;
+    src: url(gameLibraryPage/assets/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background-color: #300060;
+    color: #300060;
+    font-family: inter;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 140px;
+}
+
+fieldset {
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+    border-radius: 45px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 320px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #300060 solid;
+    background-color: none;
+    font-family: inter;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+img {
+    position: relative;
+    top: 6px;
+    width: 20px;
+}
+
+button {
+    font-family: inter;
+    font-size: 17px;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,0,96,0.7483368347338936) 50%, rgba(0,212,255,1) 100%);
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    position: relative;
+    top: -30px;
+    font-size: 13px;
+}
+
+.enternal-links {
+    display: flex;
+    flex-direction: column;
+}

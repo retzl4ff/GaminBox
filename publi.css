@@ -1,0 +1,121 @@
+@font-face {
+    font-family: inter;
+    src: url(gameLibraryPage/assets/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #300060;
+    color: white;
+    font-family: inter;
+    animation-name: loading;
+    animation-duration: 1s;
+}
+
+input {
+    font-family: inter;
+    font-size: 17px;
+    width: 400px;
+    padding: 20px 20px 20px 20px;
+    background-color: #BAA3D1;
+    color: white;
+    border: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+textarea {
+    font-family: inter;
+    font-size: 17px;
+    background-color: #BAA3D1;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus {
+    outline: 0;
+}
+
+button {
+    font-family: inter;
+    font-size: 17px;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,0,96,0.7483368347338936) 25%, rgba(0,212,255,1) 100%);
+    border: none;
+    box-shadow: 1px 1px 5px 2px rgba(255, 255, 255, 0.473);
+    border-radius: 15px;
+    width: 200px;
+    padding: 20px;
+    transition: .2s;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.insereImagem {
+    position: relative;
+}
+
+.geral {
+    display: flex;
+    flex-direction: row;
+    gap: 320px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    border: white 1px solid;
+    padding: 20px;
+    padding-top: 50px;
+    cursor: pointer;
+    animation-name: loading;
+    animation-duration: 3s;
+}
+
+.upload {
+    font-family: inter;
+    font-size: 15px;
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+    background-color: #BAA3D1;
+    color: white;
+    border: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    top: -55px;
+    left: -30px;
+    animation-name: loading;
+    animation-duration: 3s;
+}
+
+@keyframes loading {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

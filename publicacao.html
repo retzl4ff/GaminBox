@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="publi.css">
+    <title>Publique seu jogo aqui!</title>
+</head>
+<body>
+    <div class="geral">
+    <form action="" method="post" class="publiJogo">
+            <h1>Publique seu Jogo</h1>
+                <br>
+                <input type="text" name="titulo" placeholder="Título do seu jogo">
+                <br>
+                <br>
+                <input type="text" name="estudio" placeholder="Nome do estúdio responsável">
+                <br>
+                <br>
+                <input type="text" name="duracao" placeholder="Duração média do jogo (Horas)">
+                <br>
+                <br>
+                <textarea name="descricao" placeholder="Descrição do jogo - Breve (5 Linhas)" cols="41" rows="5"></textarea>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <button>Publicar</button>
+                </div>
+                <div class="insereImagem">
+                    <h1></h1>
+                </div>  
+    </form>
+    <form action="upload.php" method="POST" class="uploadImage">
+        <h2>+<br>
+        Insira a imagem do seu jogo aqui</h2>
+        <input type="file" class="upload"> 
+    </form>
+    </div>
+</body>
+</html>

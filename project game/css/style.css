@@ -1,0 +1,138 @@
+@font-face {
+    font-family: MarioFont;
+    src: url('SuperMario256.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid rgb(37, 150, 37);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animation 1.5s infinite linear;
+}
+
+.mario {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+.clouds {
+    position: absolute;
+    width: 600px;
+    animation: clouds-animation 25s infinite linear;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+
+    0% {
+        bottom: 0;
+    }
+    40% {
+        bottom: 180px;
+    }
+    50% {
+        bottom: 180px;
+    }
+    60%{
+        bottom: 180px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes clouds-animation {
+
+    from {
+        right: -550px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+.gameOverText {
+    font-family: 'MarioFont';
+    font-size: 90px;
+    color: white;
+    display: none;
+}
+
+.restart-button {
+    font-family: 'MarioFont';
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+.show {
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    background-color: black;
+    border: solid white 8px;
+    border-radius: 500px;
+}
+
+.mostrar {
+    display: flex;
+    background-color: gray;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    top: 110px;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid white;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.349);
+}
+
+.time {
+    font-family: MarioFont;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    color: gray;
+    font-size: 50px;
+}

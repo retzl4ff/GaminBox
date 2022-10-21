@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Inter;
+    src: url(gameLibraryPage/assets/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background-color: #300060;
+    color: white;
+    animation-name: loadpage;
+    animation-duration: 2s;
+}
+
+@keyframes loadpage {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.navbar {
+    padding-top: 13px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+#enter-button {
+    background-color: #1FC225;
+    color: white;
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    top: -6px;
+    transition: .2s;
+}
+
+#enter-button:hover {
+    color: #1FC225;
+    background-color: white;
+}
+
+#banner {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#banner-png {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    padding-left: 150px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: Inter;
+}
+
+.gamebar-nav {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#imageGame1 {
+    border-radius: 25px;
+    border: solid white 2px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.616);
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+#imageGame2 {
+    border-radius: 25px;
+    border: solid white 2px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.616);
+    cursor: pointer;
+    transition: 0.17s linear;
+}
+
+#imageGame3 {
+    border-radius: 25px;
+    border: solid white 2px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.616);
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+#imageGame1:hover {
+    transform: scale(1.05);
+}
+#imageGame2:hover {
+    transform: scale(1.05);
+}
+#imageGame3:hover {
+    transform: scale(1.05);
+}
+
