@@ -60,6 +60,7 @@ button {
     border-radius: 15px;
     width: 200px;
     padding: 20px;
+    cursor: pointer;
 }
 
 div {
