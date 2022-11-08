@@ -4,10 +4,43 @@
 }
 
 body {
-    background-color: #300060;
+    background-image: linear-gradient(#300060, black);
     color: white;
     animation-name: loading;
     animation-duration: 1.5s;
+}
+
+#enter-button {
+    background-color: #1FC225;  
+    color: white;
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    top: -6px;
+    transition: .2s;
+}
+
+#enter-button:hover {
+    color: #1FC225;
+    background-color: white;
+}
+
+.navbar {
+    padding-top: 13px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter;
 }
 
 #imageGame1 {
@@ -32,6 +65,29 @@ body {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.616);
     cursor: pointer;
     transition: 0.2s linear;
+}
+
+.navbar {
+    padding-top: 13px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a{
+    text-decoration: none;
 }
 
 .gamebar-nav {

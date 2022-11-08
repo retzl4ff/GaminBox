@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #300060;
+    background-image: linear-gradient(#300060, black);
     color: white;
     animation-name: loadpage;
     animation-duration: 2s;
@@ -43,7 +43,7 @@ a{
 }
 
 #enter-button {
-    background-color: #1FC225;
+    background-color: #1FC225;  
     color: white;
     font-size: 19px;
     font-family: Inter;
