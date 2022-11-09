@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleLogin.css">
+    <script defer src="login.js"></script>
     <title>Faça seu login!</title>
 </head>
+
 <body>
     <form action="login.php" method="POST" class="formulario">
         <fieldset>
             <h1>Faça seu login</h1>
-                <br>
-                <img src="gameLibraryPage/assets/o-email.png" alt="seu email">
-                <input type="email" name="email" placeholder="Endereço de Email">
-                <br>
-                <br>
-                <img src="gameLibraryPage/assets/mostrar-senha.png" alt="sua senha">
-                <input type="password" name="senha" placeholder="Senha">
-                <br>
-                <br>
-                <br>
-                <div>
-                    <button>Entrar</button>
-                </div>    
-                <br>
-                <br>
-                <div class="external-links">
-                    <a href="Tela de Cadastro/teladecadastro.html">Cadastre-se agora!</a>
-                    <a href="#">Esqueceu sua senha?</a>
-                </div>
+            <br>
+            <img src="gameLibraryPage/assets/o-email.png" alt="seu email">
+            <input id="email" type="email" name="email" placeholder="Endereço de Email">
+            <br>
+            <br>
+            <img src="gameLibraryPage/assets/mostrar-senha.png" alt="sua senha">
+            <input id="senha" type="password" name="senha" placeholder="Senha">
+            <br>
+            <br>
+            <br>
+            <p></p>
+            <div>
+                <button id="entrar" onclick="verifica()">Entrar</button>
+            </div>
+            <br>
+            <br>
+            <div class="external-links">
+                <a href="Tela de Cadastro/teladecadastro.html">Cadastre-se agora!</a>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
         </fieldset>
     </form>
 </body>
+
 </html>
