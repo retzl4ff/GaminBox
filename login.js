@@ -1,7 +1,7 @@
 let url = "gamepage.html"
-let email = document.querySelector('input#email')
-let senha = document.querySelector('input#senha')
-let button = document.getElementById('entrar')
+let email = document.getElementById('email')
+let senha = document.getElementById('senha')
+let button = document.getElementById('botao')
 let aviso = document.querySelector('p')
 
 function volta() {

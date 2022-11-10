@@ -1,0 +1,4 @@
+function volta() {
+    location = url
+}
+
