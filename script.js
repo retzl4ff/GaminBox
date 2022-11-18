@@ -1,4 +1,4 @@
-let url = "gamepage.html"
+let url = 'gamepage.html'
 let timeOut
 let boximage = document.getElementById('boximage')
 let body = document.querySelector('body')
@@ -18,5 +18,7 @@ let url1 = "login.html"
 function login(){
     location = url1
 }
+
+console.log(location.href)
 
 
