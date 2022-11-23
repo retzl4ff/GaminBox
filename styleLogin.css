@@ -3,10 +3,6 @@
     src: url(gameLibraryPage/assets/Inter-VariableFont_slnt\,wght.ttf);
 }
 
-#butvolta {
-    width: 70px;
-}
-
 body {
     background-color: #300060;
     color: #300060;
@@ -27,6 +23,10 @@ fieldset {
     border: none;
     border-radius: 45px;
     background-color: white;
+}
+
+p {
+    text-align: center;
 }
 
 h1 {
@@ -64,6 +64,7 @@ button {
     border-radius: 15px;
     width: 200px;
     padding: 20px;
+    cursor: pointer;
 }
 
 div {
