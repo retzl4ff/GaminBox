@@ -3,6 +3,10 @@
     src: url(gameLibraryPage/assets/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+#butvolta {
+    width: 70px;
+}
+
 body {
     background-color: #300060;
     color: #300060;
