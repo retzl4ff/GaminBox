@@ -2,8 +2,6 @@
 
 include('conexao.php');
 
-$txt1 = $usuario;
-
 if(isset($_POST['email']) || isset($_POST['senha'])) {
 
     $email = $mysqli->real_escape_string($_POST['email']);
@@ -24,7 +22,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         $_SESSION['id_usuario'] = $usuario['id_usuario'];
         $_SESSION['nome_usuario'] = $usuario['nome_usuario'];
         
-        header ("Location: gamepage.html");
+        header ("Location: gamepageuser.php");
     } else {
         header ("Location: fail.html");
     }
