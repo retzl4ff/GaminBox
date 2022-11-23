@@ -2,6 +2,8 @@
 
 include('conexao.php');
 
+$txt1 = $usuario;
+
 if(isset($_POST['email']) || isset($_POST['senha'])) {
 
     $email = $mysqli->real_escape_string($_POST['email']);
