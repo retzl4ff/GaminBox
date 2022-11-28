@@ -16,7 +16,7 @@
         <a href="gamepageuser.php">Home</a>
         <a href="gameLibraryPage/gamelibraryuser.html">Jogos</a>
         <a href="publicacao.html">Publique um jogo</a>
-        <a href="#">Perfil</a>
+        <a href="perfil/perfil.html">Perfil</a>
     </div>
     <div id="banner">
         <img id="banner-png" src="gameLibraryPage/assets/banner.png" alt="banner">

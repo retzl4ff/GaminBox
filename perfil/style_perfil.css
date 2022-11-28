@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#300060, black);
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.estrutura{
+    background-image: linear-gradient(#19ad14, white);
+    border: solid 2px transparent ;
+    width: 500px;
+    height: 600px;
+    padding: 0px;
+}
+
+.anuncio{
+    border: solid 1px transparent;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    background-color: silver;
+}
+
+.perfil{
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.botao{
+    
+}
