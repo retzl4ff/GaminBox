@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -14,9 +16,9 @@
 <body>
     <div class="navbar">
         <a href="gamepageuser.php">Home</a>
-        <a href="gameLibraryPage/gamelibraryuser.html">Jogos</a>
+        <a href="gameLibraryPage/gamelibraryuser.php">Jogos</a>
         <a href="publicacao.html">Publique um jogo</a>
-        <a href="perfil/perfil.html">Perfil</a>
+        <a href="#"><?=$_SESSION['nome_usuario']?></a>
     </div>
     <div id="banner">
         <img id="banner-png" src="gameLibraryPage/assets/banner.png" alt="banner">

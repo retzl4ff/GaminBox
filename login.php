@@ -1,6 +1,8 @@
 <?php
 
 include('conexao.php');
+include('gamepageuser.php');
+include('gamelibraryuser.php');
 
 if(isset($_POST['email']) || isset($_POST['senha'])) {
 
@@ -21,7 +23,11 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     }
         $_SESSION['id_usuario'] = $usuario['id_usuario'];
         $_SESSION['nome_usuario'] = $usuario['nome_usuario'];
-        
+
+        $nome_usuario = $usuario['nome_usuario'];
+
+        $GLOBALS['nome_usuario'];
+
         header ("Location: gamepageuser.php");
     } else {
         header ("Location: fail.html");
