@@ -3,7 +3,7 @@
 $servername = "127.0.0.1:3307";
 $username = "root";
 $password = "";     
-$db = "gamin_box";
+$db = "gaminbox";
 
 $mysqli = new mysqli($servername, $username, $password, $db);
   

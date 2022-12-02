@@ -3,6 +3,10 @@
     src: url(assets/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+* {
+    background-repeat: no-repeat;
+}
+
 body {
     background-image: linear-gradient(#300060, black);
     color: white;

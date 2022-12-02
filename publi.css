@@ -119,3 +119,40 @@ h2 {
         opacity: 1;
     }
 }
+
+.navbar {
+    padding-top: 13px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter;
+    color: white;
+}
+
+#publications {
+    background: none;
+    background-color: #1FC225;  
+    color: white;
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    width: 100px;
+    position: relative;
+    top: -6px;
+    transition: .2s;
+}
+
+#headp {
+    color: white;
+    text-decoration: none;
+}

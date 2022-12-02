@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3307
--- Tempo de geração: 04-Nov-2022 às 11:43
+-- Tempo de geração: 02-Dez-2022 às 14:29
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.1.2
 
@@ -18,8 +18,19 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `gamin_box`
+-- Banco de dados: `gaminbox`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `desenvolvedores`
+--
+
+CREATE TABLE `desenvolvedores` (
+  `id_dev` int(5) NOT NULL,
+  `user_dev` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -46,6 +57,12 @@ INSERT INTO `usuarios` (`id_usuario`, `nome_usuario`, `email_usuario`, `senha_us
 --
 
 --
+-- Índices para tabela `desenvolvedores`
+--
+ALTER TABLE `desenvolvedores`
+  ADD PRIMARY KEY (`id_dev`);
+
+--
 -- Índices para tabela `usuarios`
 --
 ALTER TABLE `usuarios`
@@ -54,6 +71,12 @@ ALTER TABLE `usuarios`
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
+
+--
+-- AUTO_INCREMENT de tabela `desenvolvedores`
+--
+ALTER TABLE `desenvolvedores`
+  MODIFY `id_dev` int(5) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`

@@ -18,7 +18,7 @@ session_start();
         <a href="gamepageuser.php">Home</a>
         <a href="gameLibraryPage/gamelibraryuser.php">Jogos</a>
         <a href="publicacao.html">Publique um jogo</a>
-        <a href="#"><?=$_SESSION['nome_usuario']?></a>
+        <a href="perfil/perfil.php"><?=$_SESSION['nome_usuario']?></a>
     </div>
     <div id="banner">
         <img id="banner-png" src="gameLibraryPage/assets/banner.png" alt="banner">

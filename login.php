@@ -3,6 +3,7 @@
 include('conexao.php');
 include('gamepageuser.php');
 include('gamelibraryuser.php');
+include('perfil.php');
 
 if(isset($_POST['email']) || isset($_POST['senha'])) {
 
